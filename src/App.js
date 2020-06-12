@@ -10,6 +10,7 @@ let [isMorning, setMorning] = useState(false);
   return (
 
     <div className={`box ${isMorning ? 'dayLight' : ''}`}>
+
       <h1> Good {isMorning ? 'Morning' : 'Night'}</h1>
 
       <Message counter={count}/ >
@@ -18,10 +19,18 @@ let [isMorning, setMorning] = useState(false);
       
 
       <button onClick={ 
-        ()=> setCount(count +1)
+        ()=> setCount(count+1)
          }>
-           Button Update
+           Increment
            </button>
+
+
+           <button onClick={ 
+        ()=> setCount(count-1)
+         }>
+           Decrement
+           </button>
+      
 
           
 
@@ -30,6 +39,9 @@ let [isMorning, setMorning] = useState(false);
           }>
             Update day
           </button>
+
+          
+          
 
 
 
