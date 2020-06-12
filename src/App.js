@@ -18,14 +18,14 @@ let [isMorning, setMorning] = useState(false);
       <br/>
       
 
-      <button onClick={ 
+      <button className="btn1" onClick={ 
         ()=> setCount(count+1)
          }>
            Increment
            </button>
 
 
-           <button onClick={ 
+           <button className="btn2" onClick={ 
         ()=> setCount(count-1)
          }>
            Decrement
@@ -34,7 +34,7 @@ let [isMorning, setMorning] = useState(false);
 
           
 
-          <button onClick={
+          <button className="btn3" onClick={
             ()=> setMorning(!isMorning)
           }>
             Update day
