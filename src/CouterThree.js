@@ -22,7 +22,7 @@ const reducer = (state, action) =>{
  
      return (
          <div>
-             <div>Counter {count}</div>
+             <div>Counter =  {count}</div>
 
              <button onClick={ ()=> dispath('increment') }>increment</button>
              <button onClick={ ()=> dispath('decrement') }>decrement</button>
