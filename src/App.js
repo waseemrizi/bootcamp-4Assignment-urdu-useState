@@ -7,11 +7,11 @@ import CounterThree from './CouterThree';
 function App (){
 
   return <div className='App'>
-     {/* <Counterone / >  */}
+     <Counterone / > 
 
     {/* <CounterTwo /> */}
 
-    <CounterThree />
+    {/* <CounterThree /> */}
 
   </div>
 }
